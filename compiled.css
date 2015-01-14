@@ -1,0 +1,620 @@
+
+
+
+/*
+* {
+border: 1px dotted red;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}*/
+
+
+
+
+@media screen and (min-width: 321px) {
+
+  header {
+    width: 100%;
+    height: 500px;
+  }
+
+
+  .beach {
+    width: 100%;
+    height: 500px;
+
+    background:
+    linear-gradient(
+      rgba(64, 134, 191, 0.5),
+      rgba(64, 134, 191, 0.5)
+      ), url('http://www.treasurebeachhotel.com/images/property_assets/treasure/page-bg.jpg');
+      background-size: cover;
+
+    }
+
+
+    .wave img {
+      height: 12px;
+      height: 12px;
+    }
+
+    .wavemedia img {
+
+
+      display: none;
+
+    }
+
+    body {
+      margin: 5px;
+    }
+
+
+    h1 {
+      color: white;
+      font-size: 75px;
+      padding: 5px;
+      text-align: center;
+      font-style: 'Myriad Pro', sans-serif;
+    }
+
+    header {
+      color: #C6E2FF;
+      opacity: 0.5;
+    }
+
+    header p {
+      color: black;
+      font-size:15px;
+      text-align: center;
+      padding: 0;
+    }
+
+    header h1 {
+      color: whit;
+      text-decoration: none;
+      vertical-align: top;
+    }
+
+
+    .upnav a {
+      text-decoration: none;
+
+    }
+    nav ul {
+      list-style-type: none;
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+
+    }
+
+    nav li {
+      display: inline-block;
+      color: black;
+      text-decoration: none;
+    }
+
+    .upnav {
+      float: right;
+      margin: 10px 10px 10px 765px;
+      font-size: 16px;
+      font-family: 'Monaco';
+      size: 12px;
+      color: black;
+    }
+
+    .beach a:hover, .beach li:hover{
+      background: grey;
+    }
+
+    h2 {
+      font-family: 'Trebuchet MS', sans-serif;
+      font-size: 43px;
+      color: black;
+      padding: 5px:;
+    }
+
+    .littleSloth {
+      border-radius: 98%;
+      height:25px;
+      width: 25px;
+      background-image: url("images/slothglasses.jpg");
+      background-size: cover;
+
+    }
+
+    h2 nav {
+      margin: 5px, 45px, 5px, 5px;
+    }
+
+    section a:hover {
+      background: grey;
+    }
+
+    article {
+      font-size: 17px;
+      color: black;
+      font-family: "Lato";
+    }
+
+    h7 {
+      font-family: "Roboto-Condensed", sans-serif;
+      font-size: 33px;
+      color: #499DF5;
+      margin: 1px 45px 1px 12px;
+    }
+
+    aside a:hover{
+      background: grey;
+    }
+
+  }
+
+  .midnav {
+    margin: 10px 10px 10px 10px;
+    font-size: 16px;
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+
+  .midnav li {
+    backgrond-color: green;
+    display: inline-block;
+    vertical-align: top;
+
+  }
+
+  section, aside {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  section {
+    width: 55%;
+  }
+
+  aside {
+    width: 35%;
+  }
+
+  .AM {
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .BigSloth {
+    border-radius: 95%;
+    height: 55px;
+    width: 55px;
+    background-image: url("images/slothglasses.jpg");
+    background-size: cover;
+  }
+
+  .sidenav a {
+    color: green;
+    margin: 5px 35px 5px 35px;
+    text-decoration: none;
+  }
+
+  .paddle, .AboutAd {
+    display: block;
+  }
+
+  .paddle {
+    margin: 10px 75px 1px 55px;
+  }
+  .AboutAd {
+    margin: 1px 5px 1px 275px;
+  }
+
+  .sidesec h6 {
+    color: blue;
+    font-size: 12px;
+    margin: 1px 150px 1px 1px;
+    padding: 0;
+  }
+
+  .sidesec p6 {
+    margin: 1px 250px 1px 1px;
+  }
+
+  footer {
+    background-color: #739AC5;
+  }
+
+  footer h3 {
+    color: black;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 1px 350px 1px 350px;
+    text-align: center;
+  }
+
+  /*This makes images same size.*/
+  .boys img{
+    width: 300px;
+    height: 200px;
+    margin: 1px;
+    padding: 0;
+    display: inline-block;
+
+
+  }
+  /*Text for boys words.*/
+  .boys {
+    position: relative;
+  }
+
+  .boys p{
+    font-size: 22px;
+    width: 40px;
+    color: black;
+    font-family: "Lato", sans-serif;
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    vertical-align: top;
+    margin: 0px 5px 25px 15px;
+    position: absolute;
+    top: 105px;
+
+
+  }
+
+
+
+
+  .surfdude, .surfdudesbeer, .surfdude2, .surfdude3 {
+
+    display: inline-block;
+    vertical-align: top;
+    /*width: 250px;
+    height: 200px;
+    padding: 0;*/
+  }
+
+
+
+  /*
+  .surfdude {
+  position: relative;
+  /*background-repeat: no-repeat;
+  background-image: url("images/surfdude.jpeg")
+  }*/
+
+
+  /*
+  .surfdudesbeer p{
+  /*position: absolute
+  top: 500px;
+  left: 10px;
+  width: 300px;
+}
+
+
+.surfdudesbeer {
+position: relative;
+/*background-repeat: no-repeat;
+background-image: url("images/surfdudesbeer.jpeg")
+}*/
+
+
+/*
+.surfdude2 {
+position: relative;
+/*background-repeat: no-repeat;
+background-image: url("images/surfdude2.jpeg")
+}*/
+
+
+
+/*
+.boys p{
+position: absolute;
+top: 500px;
+left: 10px;
+width: 500px;
+}
+/*
+.surfdude3 {
+position: relative;
+/*  background-repeat: no-repeat;
+background-image: url("images/surfdude3.jpeg")
+}*/
+
+
+footer nav {
+  padding: 0;
+}
+
+footer a:hover{
+  color: #C6E2FF;
+  opacity: 0.5;
+}
+.boxedmobile {
+  display: none;
+}
+
+.boxed img, .boxed h5, .boxed nav {
+  display: inline-block;
+  /*vertical-align: top;*/
+}
+
+
+.boxed img  {
+  margin: 1px 900px 1px 1px;
+}
+
+/*.boxed h5 {
+margin: 0px 100px 1px 1px;
+}*/
+
+.boxed h5 {
+  width: 300px;
+  margin: 40px 5px 5px 5px;
+  font-size: 13px;
+  color: white;
+}
+
+
+.boxed nav {
+  /*width: 100px;*/
+  margin: 5px 5px 5px 600px;
+  display: inline-block;
+}
+
+.boxed a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+
+
+  .boxed ul li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+
+  .Paddle {
+    padding: 10px;
+  }
+
+  } /* end > 320px */
+
+  @media screen and (max-width: 320px) {
+    header {
+      width: 100%;
+      height: 280px;
+      color: #C6E2FF;
+      opacity: 0.4;
+    }
+
+    .beach {
+      width: 100%;
+      height: 280px;
+
+      background:
+      linear-gradient(
+        rgba(64, 134, 191, 0.5),
+        rgba(64, 134, 191, 0.5)
+        ), url('http://www.treasurebeachhotel.com/images/property_assets/treasure/page-bg.jpg');
+        background-size: cover;
+
+      }
+
+      .wavemedia img {
+        margin: 10px 1px 1px 60px;
+        width: 90px;
+        height: 90px;
+      }
+
+      h1 {
+        color: white;
+        font-size: 28px;
+        padding: 5px;
+        text-align: center;
+        font-style: 'Myriad Pro', sans-serif;
+      }
+
+      header p {
+        color: black;
+        font-size:15px;
+        text-align: center;
+        padding: 0;
+      }
+
+
+      .beach ul {
+
+        list-style-type: none;
+        display: inline-block;
+      }
+
+      .upnav a {
+        font-color: black;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .upnav {
+
+        margin: 10px 10px 10px 55px;
+        font-size: 16px;
+        font-family: 'Monaco';
+        size: 12px;
+        font-color: black;
+        display: inline-block;
+      }
+
+      .upnav li {
+        display: inline-block;
+        font-color: black
+      }
+      .wave {
+        display: none;
+      }
+
+
+      h2 {
+        font-family: 'Trebuchet MS', sans-serif;
+        font-size: 33px;
+        color: black;
+        padding: 5px:;
+
+      }
+      section {
+        display: block;
+        width: 100%;
+        /*background-color: blue;*/
+      }
+
+      section li {
+        list-style-type: none;
+      }
+
+      section a {
+        text-decoration: none;
+
+      }
+      .littleSloth {
+        display: none;
+      }
+
+
+      h7 {
+        font-family: "Roboto-Condensed", sans-serif;
+        font-size: 33px;
+        color: #499DF5;
+        margin: 1px 45px 1px 12px;
+      }
+
+      .midnav li {
+        display: inline-block;
+      }
+
+      .midnav text {
+        display: none;
+      }
+
+      aside {
+        display:block;
+        width: 100%;
+        /*  background-color: red;*/
+      }
+
+      .sidenav li{
+        display: inline-block;
+        width: 25%;
+      }
+
+      .paddle {
+        width: 300px;
+        float: center;
+        margin: 5px;
+      }
+
+
+      .AboutAd {
+        margin: 1px 5px 1px 225px;
+      }
+
+
+
+
+      footer {
+        width: 100%;
+        height: 300px;
+        background-color: #739AC5;
+      }
+
+      footer h3 {
+        font-size: 35px;
+        margin: 0px;
+      }
+
+
+      .boys img {
+        width: 300px;
+
+      }
+
+      .boy nav {
+        display: block;
+      }
+
+      .surfdude {
+        display: none;
+      }
+
+
+      .surfdudesbeer, .surfdude2 , .surfdude3  {
+        display: block;
+
+      }
+
+
+
+
+      footer {
+        background-color:#C6E2FF;
+        width: 300px;
+
+      }
+
+      .boxed nav {
+        margin: 1px;
+
+      }
+
+      .boxed img {
+        margin: 25px 1px 0px 25px;
+      }
+
+      .boxed li {
+        list-style-type: none;
+        display: block;
+      }
+
+      .boxed {
+        display: none;
+      }
+
+      .boxedmobile   {
+        width: 300px;
+        background-color:#C6E2FF;
+        display: block;
+        color: white;
+        padding: 10px;
+
+      }
+
+      .boxedmobile li {
+
+        list-style-type: none;
+        color: white;
+
+
+      }
+
+
+      .boxedmobile ul {
+        display: inline-block;
+      }
+
+      .boxedmobile nav {
+        width: 100%;
+        display: inline-block;
+      }
+      .boxedmobile a {
+        color: white;
+
+
+
+      }
+    }
